@@ -5,6 +5,6 @@
  / /___/ /_/ // /___ _/ /  / /_/ /
 /_____/\____/ \____//___/ /_____/
 
-  real-time knowledge for ai agents
-  https://getlucid.xyz
+  grounding agents in real-time knowledge
+  v1.0.0 | https://getlucid.xyz
 
