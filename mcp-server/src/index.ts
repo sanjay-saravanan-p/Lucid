@@ -66,6 +66,23 @@ server.tool(
     return { content: [{ type: 'text' as const, text: JSON.stringify(data, null, 2) }] }
   }
 )
+
+server.tool(
+  'lucid_fetch_api_ref',
+  'Fetch the latest API reference for a specific library or service. Returns structured endpoint documentation, type signatures, and usage examples.',
+  {
+    library: z.string().describe('Library or service name'),
+    symbol: z.string().optional().describe('Specific function, class, or endpoint'),
+    version: z.string().optional().describe('Target version'),
+  },
+  async ({ library, symbol, version }) => {
+    const params: Record<string, string> = { q: library, type: 'api' }
+    if (symbol) params.symbol = symbol
+    if (version) params.version = version
+    const data = await authenticatedFetch('/search', params)
+    return { content: [{ type: 'text' as const, text: JSON.stringify(data, null, 2) }] }
+  }
+)
 async function main() {
   const transport = new StdioServerTransport()
   await server.connect(transport)
