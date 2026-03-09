@@ -27,3 +27,9 @@ Use the `lucid_fetch_api_ref` tool to get the latest API reference for any libra
 2. Use the returned type signatures and parameters in your code
 3. Prefer the live reference over training data for all API details
 4. Include relevant version information in responses
+
+## Examples
+
+- `lucid_fetch_api_ref({ library: "stripe", symbol: "PaymentIntent.create" })`
+- `lucid_fetch_api_ref({ library: "openai", symbol: "chat.completions", version: "v1" })`
+- `lucid_fetch_api_ref({ library: "prisma", symbol: "findMany" })`
