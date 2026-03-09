@@ -1,5 +1,5 @@
 ---
-name: live-api-reference
+name: lucid-api
 version: 1.0.0
 description: Fetch live API references instead of relying on training data
 triggers:

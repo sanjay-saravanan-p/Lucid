@@ -1,5 +1,5 @@
 ---
-name: latest-packages
+name: lucid-packages
 version: 1.0.0
 description: Ensure agents always reference the latest package versions
 triggers:

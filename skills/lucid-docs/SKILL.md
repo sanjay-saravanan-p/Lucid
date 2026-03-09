@@ -1,5 +1,5 @@
 ---
-name: real-time-docs
+name: lucid-docs
 version: 1.0.0
 description: Force agents to use verified, real-time documentation
 triggers:

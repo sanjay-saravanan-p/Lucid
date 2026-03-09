@@ -1,5 +1,5 @@
 ---
-name: fact-grounding
+name: lucid-grounding
 version: 1.0.0
 description: Ground all technical claims in verified real-time data
 triggers:

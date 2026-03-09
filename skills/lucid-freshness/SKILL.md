@@ -1,5 +1,5 @@
 ---
-name: codebase-freshness
+name: lucid-freshness
 version: 1.0.0
 description: Ensure generated code uses current patterns and APIs
 triggers:

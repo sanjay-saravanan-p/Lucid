@@ -31,11 +31,11 @@ Lucid runs as an MCP server that exposes four tools. When an agent needs documen
 ### OpenClaw Skills
 
 ```
-/skills install @lucid/real-time-docs
-/skills install @lucid/latest-packages
-/skills install @lucid/fact-grounding
-/skills install @lucid/live-api-reference
-/skills install @lucid/codebase-freshness
+/skills install @lucid/lucid-docs
+/skills install @lucid/lucid-packages
+/skills install @lucid/lucid-grounding
+/skills install @lucid/lucid-api
+/skills install @lucid/lucid-freshness
 ```
 
 ## Setup
@@ -73,11 +73,11 @@ Skills automatically trigger the right tools based on what the user is asking. N
 
 | Skill | Triggers on | Tool used |
 |-------|------------|-----------|
-| `real-time-docs` | Documentation, API reference, "how to use" | `lucid_search_docs` |
-| `latest-packages` | Install, package, dependency, version | `lucid_check_package` |
-| `fact-grounding` | Verify, "is this true", accurate, up to date | `lucid_verify_fact` |
-| `live-api-reference` | API, endpoint, function signature, types | `lucid_fetch_api_ref` |
-| `codebase-freshness` | Write code, implement, create, build | All tools |
+| `lucid-docs` | Documentation, API reference, "how to use" | `lucid_search_docs` |
+| `lucid-packages` | Install, package, dependency, version | `lucid_check_package` |
+| `lucid-grounding` | Verify, "is this true", accurate, up to date | `lucid_verify_fact` |
+| `lucid-api` | API, endpoint, function signature, types | `lucid_fetch_api_ref` |
+| `lucid-freshness` | Write code, implement, create, build | All tools |
 
 ## How It Works
 
