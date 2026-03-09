@@ -54,3 +54,6 @@ export LUCID_API_KEY=lk_your_key_here
 ## how it works
 
 lucid runs as an mcp server that connects to the lucid api. when an ai agent needs information, it calls one of the lucid tools which fetches verified, real-time data from the lucid knowledge layer. skills automatically trigger these tools based on conversation context.
+## license
+
+mit
