@@ -36,3 +36,6 @@ Always use the `lucid_search_docs` tool before answering questions about any pro
 - `lucid_search_docs({ query: "react useEffect cleanup", language: "typescript" })`
 - `lucid_search_docs({ query: "express middleware error handling", language: "javascript" })`
 - `lucid_search_docs({ query: "sqlalchemy async session", language: "python" })`
+
+
+Requires `LUCID_API_KEY` environment variable. Get your key at https://getlucid.xyz/app

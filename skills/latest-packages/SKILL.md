@@ -43,3 +43,6 @@ Always use the `lucid_check_package` tool before recommending or installing any 
 - Never hardcode a package version from training data
 - Never assume a package is still maintained without checking
 - Never recommend a version without verifying it exists
+
+
+Requires `LUCID_API_KEY` environment variable. Get your key at https://getlucid.xyz/app
