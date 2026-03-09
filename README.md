@@ -39,3 +39,12 @@ export LUCID_API_KEY=lk_your_key_here
 | `lucid_check_package` | check latest versions, changelogs, and compatibility |
 | `lucid_verify_fact` | verify technical claims against real-time sources |
 | `lucid_fetch_api_ref` | fetch latest api reference with type signatures |
+## skills
+
+| skill | triggers on |
+|-------|-------------|
+| `real-time-docs` | documentation, api reference, how to use |
+| `latest-packages` | install, package, dependency, version |
+| `fact-grounding` | verify, is this true, accurate, up to date |
+| `live-api-reference` | api, endpoint, function signature |
+| `codebase-freshness` | write code, implement, create, build |
