@@ -48,3 +48,6 @@ export LUCID_API_KEY=lk_your_key_here
 | `fact-grounding` | verify, is this true, accurate, up to date |
 | `live-api-reference` | api, endpoint, function signature |
 | `codebase-freshness` | write code, implement, create, build |
+## pricing
+
+20 usdc/month, payable on solana or base. subscribe at [getlucid.xyz/app](https://getlucid.xyz/app).
