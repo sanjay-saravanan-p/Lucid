@@ -24,7 +24,13 @@ Lucid runs as an MCP server that exposes four tools. When an agent needs documen
 ### Claude Code Plugin
 
 ```
-/plugin install https://github.com/get-Lucid/Lucid
+/plugin marketplace add get-Lucid/Lucid
+```
+
+Then install:
+
+```
+/plugin install lucid
 ```
 
 ### OpenClaw Skills

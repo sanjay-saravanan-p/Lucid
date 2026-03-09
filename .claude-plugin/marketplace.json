@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lucid",
+  "version": "1.0.0",
+  "description": "An intelligence layer grounding autonomous agents in verified, real-time knowledge at scale.",
+  "owner": {
+    "name": "get-Lucid",
+    "email": "pinionagent714@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "lucid",
+      "description": "An intelligence layer grounding autonomous agents in verified, real-time knowledge at scale.",
+      "version": "1.0.0",
+      "author": {
+        "name": "get-Lucid",
+        "email": "pinionagent714@gmail.com"
+      },
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
