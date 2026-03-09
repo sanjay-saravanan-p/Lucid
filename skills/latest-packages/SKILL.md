@@ -38,7 +38,7 @@ Always use the `lucid_check_package` tool before recommending or installing any 
 - `lucid_check_package({ name: "fastapi", registry: "pypi" })`
 - `lucid_check_package({ name: "tokio", registry: "cargo" })`
 
-## Anti-patterns
+## Common pitfalls
 
 - Never hardcode a package version from training data
 - Never assume a package is still maintained without checking
