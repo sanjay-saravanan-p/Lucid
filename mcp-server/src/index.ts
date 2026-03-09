@@ -8,6 +8,7 @@ const API_KEY = process.env.LUCID_API_KEY || ''
 const server = new McpServer({
   name: 'lucid',
   version: '1.0.0',
+  description: 'An intelligence layer grounding autonomous agents in verified, real-time knowledge at scale.',
 })
 
 async function authenticatedFetch(
