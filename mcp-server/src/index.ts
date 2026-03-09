@@ -51,6 +51,21 @@ server.tool(
     return { content: [{ type: 'text' as const, text: JSON.stringify(data, null, 2) }] }
   }
 )
+
+server.tool(
+  'lucid_verify_fact',
+  'Verify a technical claim or fact against real-time sources. Use this to ground any uncertain statement in verified data.',
+  {
+    claim: z.string().describe('The technical claim to verify'),
+    context: z.string().optional().describe('Additional context for verification'),
+  },
+  async ({ claim, context }) => {
+    const params: Record<string, string> = { q: claim, type: 'verify' }
+    if (context) params.context = context
+    const data = await authenticatedFetch('/search', params)
+    return { content: [{ type: 'text' as const, text: JSON.stringify(data, null, 2) }] }
+  }
+)
 async function main() {
   const transport = new StdioServerTransport()
   await server.connect(transport)
