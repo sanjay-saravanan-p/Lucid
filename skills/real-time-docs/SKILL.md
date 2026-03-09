@@ -7,6 +7,10 @@ triggers:
   - docs
   - how to use
   - api reference
+  - tutorial
+  - guide
+tools:
+  - lucid_search_docs
 ---
 
 # Real-Time Documentation Lookup
