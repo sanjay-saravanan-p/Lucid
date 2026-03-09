@@ -1,9 +1,11 @@
 {
   "name": "lucid",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "An intelligence layer grounding autonomous agents in verified, real-time knowledge at scale.",
   "author": "get-lucid",
   "repository": "https://github.com/get-Lucid/Lucid",
+  "homepage": "https://getlucid.xyz",
+  "license": "MIT",
   "mcp_servers": [
     {
       "name": "lucid",
@@ -13,5 +15,6 @@
         "LUCID_API_KEY": ""
       }
     }
-  ]
+  ],
+  "hooks": "hooks.json"
 }
