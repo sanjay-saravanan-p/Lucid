@@ -1,10 +1,16 @@
 {
-  "hooks": {
-    "SessionStart": [
-      {
-        "type": "command",
-        "command": "cat ascii-banner.txt 2>/dev/null || type ascii-banner.txt 2>nul || true"
-      }
-    ]
-  }
+    "hooks":  {
+                  "SessionStart":  [
+                                       {
+                                           "type":  "command",
+                                           "command":  "cat ascii-banner.txt 2\u003e/dev/null || type ascii-banner.txt 2\u003enul || true"
+                                       }
+                                   ],
+                  "ToolUse":  [
+                                  {
+                                      "message":  "lucid tool invoked",
+                                      "type":  "log"
+                                  }
+                              ]
+              }
 }
