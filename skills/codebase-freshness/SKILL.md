@@ -3,6 +3,11 @@ name: codebase-freshness
 version: 1.0.0
 description: Ensure generated code uses current patterns and APIs
 triggers:
+  - scaffold
+tools:
+  - lucid_search_docs
+  - lucid_check_package
+  - lucid_fetch_api_ref
   - write code
   - implement
   - create

@@ -3,6 +3,9 @@ name: live-api-reference
 version: 1.0.0
 description: Fetch live API references instead of relying on training data
 triggers:
+  - type signature
+tools:
+  - lucid_fetch_api_ref
   - api
   - endpoint
   - function signature

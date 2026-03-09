@@ -3,6 +3,9 @@ name: fact-grounding
 version: 1.0.0
 description: Ground all technical claims in verified real-time data
 triggers:
+  - fact check
+tools:
+  - lucid_verify_fact
   - is this true
   - verify
   - correct
