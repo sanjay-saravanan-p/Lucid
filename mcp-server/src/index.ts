@@ -10,6 +10,18 @@ const server = new McpServer({
   version: '0.1.0',
 })
 
+
+async function authenticatedFetch(endpoint: string, params: Record<string, string> = {}) {
+  if (!API_KEY) throw new Error('LUCID_API_KEY not set')
+  const url = new URL(endpoint, API_URL)
+  Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v))
+  const res = await fetch(url.toString(), {
+    headers: { Authorization: Bearer ${API_KEY} },
+  })
+  if (!res.ok) throw new Error(Lucid API error: ${res.status})
+  return res.json()
+}
+
 async function main() {
   const transport = new StdioServerTransport()
   await server.connect(transport)
