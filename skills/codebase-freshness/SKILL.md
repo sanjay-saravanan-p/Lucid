@@ -40,7 +40,7 @@ Before writing any substantial code, verify that the patterns and APIs you plan 
 3. Write code using verified, up-to-date approaches
 4. Flag any areas where your training data may be outdated
 
-## Anti-patterns
+## Common pitfalls
 
 - Never use deprecated lifecycle methods or APIs
 - Never import from paths that have been reorganized
