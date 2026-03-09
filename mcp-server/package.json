@@ -1,8 +1,10 @@
 {
   "name": "@lucid/mcp-server",
-  "version": "0.2.0",
+  "version": "1.0.0",
+  "description": "MCP server for Lucid real-time knowledge tools",
   "private": true,
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
@@ -15,5 +17,8 @@
   "devDependencies": {
     "typescript": "^5.7.0",
     "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
