@@ -64,3 +64,5 @@ make sure your subscription is active at [getlucid.xyz/app](https://getlucid.xyz
 
 **tools not appearing**
 rebuild the mcp server: `cd mcp-server && npm run build`
+**connection errors**
+check that `LUCID_API_KEY` is set in your environment and the api is reachable.
