@@ -31,3 +31,11 @@ lucid gives ai agents access to real-time, verified information instead of relyi
 ```bash
 export LUCID_API_KEY=lk_your_key_here
 ```
+## tools
+
+| tool | description |
+|------|-------------|
+| `lucid_search_docs` | search real-time documentation for any language or framework |
+| `lucid_check_package` | check latest versions, changelogs, and compatibility |
+| `lucid_verify_fact` | verify technical claims against real-time sources |
+| `lucid_fetch_api_ref` | fetch latest api reference with type signatures |
