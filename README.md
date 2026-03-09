@@ -15,7 +15,7 @@ An intelligence layer grounding autonomous agents in verified, real-time knowled
 
 ## What is Lucid?
 
-AI agents hallucinate. They reference deprecated APIs, recommend outdated package versions, and state "facts" from stale training data. Lucid fixes this by giving agents a real-time knowledge layer — every response grounded in verified, live information.
+AI agents hallucinate. They reference deprecated APIs, recommend outdated package versions and state "facts" from stale training data. Lucid fixes this by giving agents a real-time knowledge layer - every response grounded in verified, live information.
 
 Lucid runs as an MCP server that exposes four tools. When an agent needs documentation, package info, fact verification, or API references, it queries Lucid instead of guessing from training data. Skills auto-trigger these tools based on conversation context so the agent doesn't even need to be asked.
 
@@ -24,18 +24,17 @@ Lucid runs as an MCP server that exposes four tools. When an agent needs documen
 ### Claude Code Plugin
 
 ```
-/plugin marketplace add get-Lucid/Lucid
-/plugin marketplace install lucid@get-Lucid/Lucid
+/plugin install https://github.com/get-Lucid/Lucid
 ```
 
 ### OpenClaw Skills
 
 ```
-/skills install @lucid/lucid-docs
-/skills install @lucid/lucid-packages
-/skills install @lucid/lucid-grounding
-/skills install @lucid/lucid-api
-/skills install @lucid/lucid-freshness
+openclaw skills install lucid-docs
+openclaw skills install lucid-packages
+openclaw skills install lucid-grounding
+openclaw skills install lucid-api
+openclaw skills install lucid-freshness
 ```
 
 ## Setup
@@ -54,9 +53,9 @@ That's it. The MCP server reads the key from your environment and authenticates 
 | Tool | What it does |
 |------|-------------|
 | `lucid_search_docs` | Search real-time documentation for any language, framework, or library |
-| `lucid_check_package` | Check latest versions, changelogs, deprecations, and compatibility |
+| `lucid_check_package` | Check latest versions, changelogs and deprecations for compatibility |
 | `lucid_verify_fact` | Verify technical claims against live sources before stating them as fact |
-| `lucid_fetch_api_ref` | Fetch current API references with type signatures and usage examples |
+| `lucid_fetch_api_ref` | Fetch current API references with type signatures with usage examples |
 
 ### Example calls
 
@@ -97,7 +96,7 @@ The agent never falls back to training data for anything Lucid can verify. If th
 
 ## Pricing
 
-**20 USDC/month** — payable on Solana or Base.
+**20 USDC/month** - payable on Solana or Base.
 
 Subscribe and manage your key at **[getlucid.tech/app](https://getlucid.tech/app)**.
 
