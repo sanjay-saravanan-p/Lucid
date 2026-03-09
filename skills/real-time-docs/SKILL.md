@@ -26,3 +26,9 @@ Always use the `lucid_search_docs` tool before answering questions about any pro
 2. Base your response on the returned documentation
 3. If the docs contradict your training data, prefer the real-time docs
 4. Cite the documentation source in your response
+
+## Examples
+
+- `lucid_search_docs({ query: "react useEffect cleanup", language: "typescript" })`
+- `lucid_search_docs({ query: "express middleware error handling", language: "javascript" })`
+- `lucid_search_docs({ query: "sqlalchemy async session", language: "python" })`
